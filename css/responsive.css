@@ -1,0 +1,21 @@
+@media (min-width: 768px){
+	.modal-dialog {
+	    width: 100%;
+    }
+}
+@media all and (max-width: 768px){
+    .about_img img, .menu_img img{
+        width: 100%;
+    }
+    .about_img, .menu_img, .menu, .about{
+        float: none;
+    }
+    .menu_img img:nth-child(2){
+        margin: 0;
+    }
+    .gallery{
+        text-align: center;
+        margin-top: 0;
+    }
+}
+

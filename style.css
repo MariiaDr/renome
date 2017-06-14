@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Oval');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    background-color: #fff; 
+    font-family: 'Nova Oval', cursive;
+    color: #000;
+    position: relative;
+}
+h2{font-size: 50px;}
+h3{font-size: 18px; color: #985e5b; text-transform: uppercase;}
+p{line-height: 2;}
+
+.logo{font-family: 'Pacifico', cursive;font-size: 25px; color: #000;}
+.navbar{margin-bottom: 0;}
+.navbar_bg, footer{background-color: #edeff2;font-weight: bold;}
+.navbar_bg .navbar_wrap>.active>a, 
+.navbar_bg .navbar_wrap>.active>a:focus, 
+.navbar_bg .navbar_wrap>.active>a:hover{
+    color: #985e5b;
+    background-color: transparent;
+}
+.navbar_bg .navbar_wrap>li>a:focus, 
+.navbar_bg .navbar_wrap>li>a:hover{
+    color: #985e5b;
+}
+a.modal_wrap:focus{outline: none;}
+/*modal*/
+.modal-header h3{
+    font-size: 20px;
+    text-align: center;
+}
+.modal-body input{
+    margin-bottom: 10px;
+}
+form .forms{
+    border:transparent;
+    border-bottom: 2px solid #f5f7fa;
+    border-radius: 0;
+    box-shadow: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+input[type="text"]::-webkit-input-placeholder{color:#000;}
+input[type="text"]::-moz-placeholder{color:#000;}/* Firefox 19+ */
+input[type="text"]:-moz-placeholder{color:#000;}/* Firefox 18- */
+input[type="text"]:-ms-input-placeholder{color:#000;}
+form .forms:focus {
+    border-color: #000;
+    outline: 0;
+    -webkit-box-shadow: none;;
+    box-shadow: none;
+}
+button.close{padding: 5px;}
+button.send{width: 100%;}
+button.send, button.close{
+    color: #000;
+    background-color: #f5f7fa;
+    border-color: transparent;
+    font-family: 'Pacifico', cursive;
+}
+button.send:hover, button.close:hover {
+    color: #fff;
+    background-color: #1e2633;
+    border-color: transparent;
+    transition: 1s;
+}
+.btn.active.focus, 
+.btn.active:focus, 
+.btn.focus, 
+.btn:active.focus, 
+.btn:active:focus, 
+.btn:focus{outline: none;}
+
+/*slider*/
+.carousel .glyphicon-menu-left, .carousel .glyphicon-menu-right{
+    top: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+.wrap{
+    width: 90%;
+    margin: 40px auto;
+}
+.menu{
+    text-align: right;
+    float: right;
+    padding-right: 30px;
+}
+.about{
+    float: left;
+    padding-left: 30px;
+}
+.about_img img, .menu_img img{
+    width: 300px;
+    display: block;
+}
+.about_img{
+    float: right;
+    margin-top: 50px;
+}
+.menu_img{
+    float: left;
+}
+.about_img img:nth-child(2){    
+    margin-top: -30px;
+    margin-left: 5%;
+}
+.menu_img img:nth-child(2){
+    margin-left: 6%;
+    margin-top: -60px;
+}
+.media-body p{
+    width: 70%;
+    float: left;
+}
+.media-body .price{
+    float: right;
+    font-size: 17px;
+}
+.tab-content h3{margin: 3% 0 3% 20%;}
+.tabs_wrap{
+    margin-top: 30px;
+    text-align: center;
+}
+.tabs_wrap li{
+    display: inline-block;
+    float: none;
+}
+.tabs_wrap li a{
+    text-transform: uppercase;
+    color: #1e2633;
+    font-weight: bold;
+    font-size: 15px;
+}
+.tabs_wrap>li.active>a, 
+.tabs_wrap li:hover a, 
+.tabs_wrap>li.active>a:focus,
+.tabs_wrap>li.active>a:hover{
+    color: #985e5b;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #985e5b; 
+    background-color: transparent;
+}
+
+.gallery{text-align: right;margin-top: 20%;}
+.bg{
+    background-image: url(img/bg1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.contact{text-align: center;width: 80%; margin: 0 auto;}
+.contact_wrap{margin: 30px 0;}
+.contact_wrap input{margin-bottom: 10px;}
+.contact_wrap textarea{height: 35px; color: #000;}
+
+textarea::-webkit-input-placeholder { color: red; }
+textarea:-moz-placeholder { color: red; }/* Firefox 19+ */
+textarea:-moz-placeholder{color:#000;}/* Firefox 18- */
+textarea:-ms-input-placeholder{color:#000;}
+
+/*-----footer-----*/
+.social{float: right;padding: 10px 15px;}
+.social li{list-style: none;}
+.social a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+.facebook{background-image: url(img/facebook.png);}
+.twitter{background-image: url(img/twitter.png);}
+.facebook:hover{background-image: url(img/facebook1.png);}
+.twitter:hover{background-image: url(img/twitter1.png);}
